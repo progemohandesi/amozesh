@@ -10,22 +10,38 @@
     <!--Mobile first-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="../assets/lib/bootstrap/dist/css/bootstrap.rtl.css">
-
+   <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-rtl.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	  <link href='http://www.fontonline.ir/css/BYekan.css' rel='stylesheet' type='text/css'>
+         <link href='http://www.fontonline.ir/css/BMitra.css' rel='stylesheet' type='text/css'>
+		 <style>
+			     
+
+             h2{
+             font-family:BYekan,'BYekan',tahoma;
+            
+            }
+			  h1{
+             font-family:BYekan,'BYekan',tahoma;
+          
+            }
+			  h3{
+             font-family:BYekan,'BYekan',tahoma;
+			  }
+            
+          li{
+             font-family:BMitra,'BMitra',tahoma;
+             font-size:20px;
+            }
+        </style>
 
     <!-- Metis core stylesheet -->
-    <link rel="stylesheet" href="../assets/css/main.rtl.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- metisMenu stylesheet -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/1.1.3/metisMenu.min.css">
-    <style>
-      body {
-        direction: rtl;
-      }
-    </style>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,8 +49,8 @@
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
     <!--[if lt IE 9]>
-      <script src="../assets/lib/html5shiv/html5shiv.js"></script>
-      <script src="../assets/lib/respond/respond.min.js"></script>
+      <script src="assets/lib/html5shiv/html5shiv.js"></script>
+      <script src="assets/lib/respond/respond.min.js"></script>
       <![endif]-->
 
     <!--For Development Only. Not required -->
@@ -45,8 +61,8 @@
         rootpath: "../assets/"
       };
     </script>
-    <link rel="stylesheet" href="../assets/css/style-switcher.css">
-    <link rel="stylesheet/less" type="text/css" href="../assets/less/theme.less">
+    <link rel="stylesheet" href="assets/css/style-switcher.css">
+    <link rel="stylesheet/less" type="text/css" href="assets/less/theme.less">
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js"></script>
 
     <!--Modernizr-->
@@ -69,7 +85,7 @@
                 <span class="icon-bar"></span> 
               </button>
               <a href="index.html" class="navbar-brand">
-                <img src="../assets/img/logo.png" alt="">
+                <img src="assets/img/logo.png" alt="">
               </a> 
             </header>
             <div class="topnav">
@@ -107,19 +123,19 @@
 
               <!-- .nav -->
               <ul class="nav navbar-nav">
-                <li> <a href="dashboard.html">Dashboard</a>  </li>
-                <li> <a href="table.html">Tables</a>  </li>
-                <li> <a href="file.html">File Manager</a>  </li>
+                <li> <a href="dashboard.html">داشبورد</a>  </li>
+                <li> <a href="table.html">جدول</a>  </li>
+                <li> <a href="file.html">فایل منیجر</a>  </li>
                 <li class='dropdown '>
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Form Elements
+                    فرم عناصر
                     <b class="caret"></b>
                   </a> 
                   <ul class="dropdown-menu">
-                    <li> <a href="form-general.html">General</a>  </li>
-                    <li> <a href="form-validation.html">Validation</a>  </li>
+                    <li> <a href="form-general.html">عمومی</a>  </li>
+                    <li> <a href="form-validation.html">اعتبار سنجی</a>  </li>
                     <li> <a href="form-wysiwyg.html">WYSIWYG</a>  </li>
-                    <li> <a href="form-wizard.html">Wizard &amp; File Upload</a>  </li>
+                    <li> <a href="form-wizard.html">مرحله&amp; آپلود فایل</a>  </li>
                   </ul>
                 </li>
               </ul><!-- /.nav -->
@@ -152,7 +168,7 @@
           </div>
           <div class="user-wrapper bg-dark">
             <a class="user-link" href="">
-              <img class="media-object img-thumbnail user-img" alt="User Picture" src="../assets/img/user.gif">
+              <img class="media-object img-thumbnail user-img" alt="User Picture" src="assets/img/user.gif">
               <span class="label label-danger user-label">16</span> 
             </a> 
             <div class="media-body">
@@ -169,19 +185,19 @@
           </div>
         </div>
 
-        <!-- #menu -->
+   <!-- #menu -->
         <ul id="menu" class="bg-blue dker">
           <li class="nav-header">Menu</li>
           <li class="nav-divider"></li>
           <li class="">
             <a href="dashboard.html">
-              <i class="fa fa-dashboard"></i><span class="link-title">&nbsp;Dashboard</span> 
+              <i class="fa fa-dashboard"></i><span class="link-title">&nbsp;داشبورد</span> 
             </a> 
           </li>
-          <li class="active">
+          <li class="">
             <a href="javascript:;">
               <i class="fa fa-building "></i>
-              <span class="link-title">Layouts</span> 
+              <span class="link-title">طرح بندی</span> 
               <span class="fa arrow"></span> 
             </a> 
             <ul>
@@ -262,7 +278,7 @@
           <li class="">
             <a href="javascript:;">
               <i class="fa fa-tasks"></i>
-              <span class="link-title">Components</span> 
+              <span class="link-title">اجزا</span> 
               <span class="fa arrow"></span> 
             </a> 
             <ul>
@@ -296,7 +312,7 @@
             <a href="javascript:;">
               <i class="fa fa-pencil"></i>
               <span class="link-title">
-            Forms
+     فرم ها
 	  </span> 
               <span class="fa arrow"></span> 
             </a> 
@@ -329,41 +345,41 @@
             <a href="file.html">
               <i class="fa fa-file"></i>
               <span class="link-title">
-      File Manager
+      فایل منیجر
           </span> </a> 
           </li>
           <li>
             <a href="typography.html">
               <i class="fa fa-font"></i>
               <span class="link-title">
-            Typography
+           توپولوژی
           </span>  </a> 
           </li>
           <li>
             <a href="maps.html">
               <i class="fa fa-map-marker"></i><span class="link-title">
-            Maps
+           نقشه
           </span> </a> 
           </li>
           <li>
             <a href="chart.html">
               <i class="fa fa fa-bar-chart-o"></i>
               <span class="link-title">
-            Charts
+           نمودار
           </span> </a> 
           </li>
           <li>
             <a href="calendar.html">
               <i class="fa fa-calendar"></i>
               <span class="link-title">
-            Calendar
+            تقویم
           </span> </a> 
           </li>
           <li>
             <a href="javascript:;">
               <i class="fa fa-exclamation-triangle"></i>
               <span class="link-title">
-              Error Pages
+              صفحه باگ ها
             </span> 
               <span class="fa arrow"></span> 
             </a> 
@@ -402,7 +418,7 @@
             <a href="grid.html">
               <i class="fa fa-columns"></i>
               <span class="link-title">
-    Grid
+    گرید
     </span> 
             </a> 
           </li>
@@ -410,7 +426,7 @@
             <a href="blank.html">
               <i class="fa fa-square-o"></i>
               <span class="link-title">
-    Blank Page
+   صفحه خالی
     </span> 
             </a> 
           </li>
@@ -419,7 +435,7 @@
             <a href="login.html">
               <i class="fa fa-sign-in"></i>
               <span class="link-title">
-    Login Page
+    لاگین پیج
     </span> 
             </a> 
           </li>
@@ -427,7 +443,7 @@
             <a href="javascript:;">
               <i class="fa fa-code"></i>
               <span class="link-title">
-    	Unlimited Level Menu 
+منوی سطح نامحدود
     	</span> 
               <span class="fa arrow"></span> </a> 
             <ul>
@@ -588,9 +604,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js"></script>
 
     <!-- Metis core scripts -->
-    <script src="../assets/js/core.min.js"></script>
+    <script src="assets/js/core.min.js"></script>
 
     <!-- Metis demo scripts -->
-    <script src="../assets/js/app.js"></script>
-    <script src="../assets/js/style-switcher.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/style-switcher.min.js"></script>
   </body>

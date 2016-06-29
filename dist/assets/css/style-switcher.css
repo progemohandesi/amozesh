@@ -163,7 +163,7 @@ body.rtl .style-switcher .options li {
   height: 233px;
   cursor: text;
   resize: none;
-  direction: ltr;
+  direction: rtl;
 }
 #sidebarPos {
   display: none;
